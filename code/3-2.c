@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 int cmp_asc(int a, int b) {
-    return a > b;
+    return (*(int *)a - *(int *)b);
 }
 
 int cmp_desc(int a, int b) {
-    return a < b;
+    return (*(int *)a - *(int *)b);
 }
 
 void print_arr(int *arr, int size) {
