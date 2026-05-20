@@ -6,7 +6,7 @@ int cmp_asc(int a, int b) {
 }
 
 int cmp_desc(int a, int b) {
-    return (*(int *)a - *(int *)b);
+    return (*(int *)b - *(int *)a);
 }
 
 void print_arr(int *arr, int size) {
